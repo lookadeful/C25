@@ -18,7 +18,7 @@ class Paper {
         var pos = this.body.position;
 
         push()
-        translate(pos.x, pos.y);
+        translate(pos.x, pos.y - 15);
         image(this.image, 0, 0, this.width, this.height)
         imageMode(CENTER)
         pop()
